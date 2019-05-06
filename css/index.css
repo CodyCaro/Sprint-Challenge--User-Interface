@@ -291,7 +291,6 @@ footer nav {
     display: flex;
     justify-content: flex-start;
     padding: 20px 0%;
-    /* align-content: unset; */
     margin-top: -1px;
     font-size: 14px;
 }
@@ -300,7 +299,6 @@ footer nav a {
     color: white;
     text-decoration: none;
     margin: 0;
-    /* margin-left: -338px; */
     margin-right: 45px;
     margin-left: 15px;
 }
