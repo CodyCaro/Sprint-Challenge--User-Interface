@@ -160,6 +160,18 @@ p {
 
 /* CSS Styling Starts Here */
 
+/* Utilities */
+.white-rounded-button{
+    padding: 9px;
+    width: 131px;
+    height: 38px;
+    margin-top: 22px;
+    background: white;
+    border: 1.5px solid black;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -302,3 +314,41 @@ footer nav a {
     margin-right: 45px;
     margin-left: 15px;
 }
+
+/* About Page Specific Styling */
+.about-page .top-content .text-container {
+    width: 97%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.about-page .middle-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: none;
+}
+
+.about-page .middle-content-box-holder{
+    width: 46.5%;
+    margin: 10px 13px 0px 14px;
+}
+
+.about-page .middle-content-box{
+    display: flex;
+    flex-direction: column;
+    height: 429px;
+    border-bottom: 1px dashed;
+}
+
+.about-page .middle-content-box h2{
+    padding: 0;
+    margin-top: 13px;
+}
+
+.about-page .middle-content-box p{
+    padding: 0;
+    margin-top: 13px;
+}
+
+
