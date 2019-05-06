@@ -164,7 +164,6 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 21px auto 0 auto;
-    align-content: center;
 }
 
 nav a {
@@ -175,8 +174,9 @@ nav a {
     font-size: 14px;
 }
 
-.lambda-logo {
-
+header {
+    margin-top: 39px;
+    margin-bottom: 20px;
 }
 
 .container {
