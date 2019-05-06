@@ -161,7 +161,7 @@ p {
 /* CSS Styling Starts Here */
 
 /* Utilities */
-.white-rounded-button{
+.white-rounded-button {
     padding: 9px;
     width: 131px;
     height: 38px;
@@ -322,33 +322,38 @@ footer nav a {
     padding-bottom: 20px;
 }
 
-.about-page .middle-content{
+.about-page .middle-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     border-bottom: none;
 }
 
-.about-page .middle-content-box-holder{
+.about-page .middle-content-box-holder {
     width: 46.5%;
     margin: 10px 13px 0px 14px;
+    margin-bottom: 49px;
 }
 
-.about-page .middle-content-box{
+.about-page .middle-content-box {
     display: flex;
     flex-direction: column;
     height: 429px;
     border-bottom: 1px dashed;
 }
 
-.about-page .middle-content-box h2{
+.about-page .middle-content-box h2 {
     padding: 0;
     margin-top: 13px;
 }
 
-.about-page .middle-content-box p{
+.about-page .middle-content-box p {
     padding: 0;
     margin-top: 13px;
 }
 
-
+.about-page .bottom-content {
+    display: flex;
+    margin: -18px 2.5% 20px;
+    justify-content: space-around;
+}
