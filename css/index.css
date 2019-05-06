@@ -354,6 +354,6 @@ footer nav a {
 
 .about-page .bottom-content {
     display: flex;
-    margin: -18px 2.5% 20px;
+    margin: -18px 2.5% 40px;
     justify-content: space-around;
 }
