@@ -3,60 +3,152 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -64,6 +156,41 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+/* CSS Styling Starts Here */
+
+/* Utilities */
+.white-rounded-button {
+    padding: 9px;
+    width: 131px;
+    height: 38px;
+    margin-top: 22px;
+    background: white;
+    border: 1.5px solid black;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+/* End Utilities */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 21px auto 0 auto;
+}
+
+nav a {
+    margin-right: 43px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+header {
+    margin-top: 39px;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -82,7 +209,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -112,6 +239,49 @@ p {
     justify-content: center;
 }
 
+/* Box 1-10 css */
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
+/* End of Box 1-10 css */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -132,15 +302,66 @@ footer {
 }
 
 footer nav {
-    width: 60%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+    justify-content: flex-start;
+    padding: 20px 0%;
+    margin-top: -1px;
     font-size: 14px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    margin: 0;
+    margin-right: 45px;
+    margin-left: 15px;
+}
+
+/* About Page Specific Styling */
+
+.about-page .top-content .text-container {
+    width: 97%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.about-page .middle-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: none;
+}
+
+.about-page .middle-content-box-holder {
+    width: 46.5%;
+    margin: 10px 13px 0px 14px;
+    margin-bottom: 49px;
+}
+
+.about-page .middle-content-box {
+    display: flex;
+    flex-direction: column;
+    height: 429px;
+    border-bottom: 1px dashed;
+}
+
+.about-page .middle-content-box h2 {
+    padding: 0;
+    margin-top: 13px;
+}
+
+.about-page .middle-content-box p {
+    padding: 0;
+    margin-top: 13px;
+}
+
+.about-page .bottom-content {
+    display: flex;
+    margin: -18px 2.5% 40px;
+    justify-content: space-around;
+}
+
+.home-nav-image {
+    margin-right: 0;
+    margin-top: 0;
 }
